@@ -1,0 +1,63 @@
+/* I'm going to make the H1 awesome. Also you can start taking notes by hitting command/ 
+at the end of note */
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+/* This css selector is applying this rule to all of the P's on my page */
+/* You can make them unique by adding id="first" to your html code inside of the carrot brackets<> */
+/* You can name the id whatever you want as long as its consistent with the # on styles page */
+#first {
+    color: purple;
+    font-size: 40px;
+}
+#second {
+    color: orange;
+    font-size: 20px;
+}
+#Mizzou{
+    width: 200px;
+}
+#South Carolina {
+    width: 100px;
+}
+#Bo {
+    width: 100px;
+}
+/* This is how you reference a class */
+.tacos {
+    color: yellow;
+}
+/* Another way to choose selectors is to make classes so that multiple elements can have the same class. 
+Only one element can have an ID. You can add a class to something that already has an ID.
+TBH most people don't use IDs at all. Just use class. */
+
+/* This means you only want paragraphs with the tacos class inside it to have this property */
+/* p.tacos { */
+    /* color: blue; */
+/* } */
+
+/* This means you only want paragraphs with the tacos AND pizza class inside it to have this property */
+/* p.tacos.pizza { */
+    /* color: blue; */
+/* } */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.centertext {
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

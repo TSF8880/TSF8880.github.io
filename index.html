@@ -2,27 +2,42 @@
 <html>
 <head>
     <title>Tom's Degenerate Gamblers</title>
+    <link rel="stylesheet" href="styles.css">
 <style>
 table, th, td {
     border: 1px solid black;
 }
+td {
+    text-align: center;
+}
+th {
+    background-color: aquamarine;
+    color: black;
+}
 </style>
 </head>
 <body>
-        <h1>Hi! Welcome to degenerate gamblers.com!</h1>
-
-        <h2>College Basketball</h2>
-        
-        <p><strong>Mizzou Vs. South Carolina</strong> January 12th, 2019</p>
-        
-        <p><a href="https://www.oddsshark.com/stats/team/basketball/ncaab/15583"><img src="Mizzou.png"></a></p>
-        
-        <p><a href="https://www.oddsshark.com/stats/team/basketball/ncaab/15537"><img src="South Carolina.jpg"></a></p>
-        
+    <div class="centertext">
+            <h1>Hi! Welcome to degenerate gamblers.com!</h1>
+            <h2>College Basketball</h2>
+            <p id="first" class="tacos"><strong>Mizzou Vs. South Carolina</strong> January 12th, 2019</p>
+            <p id="second">This is another paragraph for purple test</p>
+            <p class="tacos">TACOS!!!</p>
+            <p class="tacos">ALSO TACOS!!!</p>
+    </div>
+      <div class="center">    
+        <div class="row">
+                    <p><a href="https://www.oddsshark.com/stats/team/basketball/ncaab/15583"><img class="column" src="Mizzou.png"></a></p>
+                    <p><a href="https://www.oddsshark.com/stats/team/basketball/ncaab/15537"><img class="column" src="South Carolina.jpg"></a></p>
+        </div>
+        </div>
+        <p>
+            <img id="Bo" src="Bo.JPG">
+        </p>
         <p>
                 <a href="about.html">About Me</a>
-            </p>
-<table style="width:50%">
+            </p>       
+<table class="center">
     <tr>
         <th>Team Name</th>
         <th>Average Score</th>
@@ -58,5 +73,3 @@ table, th, td {
 
 </body>
 </html>
-
-
