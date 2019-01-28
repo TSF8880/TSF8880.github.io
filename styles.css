@@ -1,17 +1,30 @@
 .nav-link {
-    font-size: 15px;
+    font-size: 20px;
 }
 a.navbar-brand img {
     width: 200px;
 }
 .jumbotron {
-    background-image: url(https://i.imgur.com/xPAS82H.jpg);
+    background-image: url(democrat-republican-political-bias-670x335.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 300px;
     padding: 50px;
 }
 img {
+    vertical-align: middle;
+    border-style: none;
     width: 100%;
 }
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    font-size: 45px;
+}
+
