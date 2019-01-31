@@ -27,6 +27,8 @@ h2 {
 }
 p {
     font-size: 15px;
+    word-wrap: break-word;
+    width: 80%;
 }
 .col-centered {
     float: none;
@@ -35,6 +37,7 @@ p {
 .carousel-inner {
     width: 400px;
     margin: auto;
+    padding-bottom: 25px;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -61,4 +64,42 @@ p {
 }
 .carousel-indicators {
     color: black;
+}
+.contact {
+    margin: auto;
+    width: 800px;
+    padding: 25px 25px 1px;
+}
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+    opacity: .6;
+}
+.col-md-2 {
+    border-left: 1px solid black;
+}
+.page-footer {
+    background: #2d2d30;
+    color: #bdbdbd;
+    opacity: .5;
+    margin-top: 25px;
+    box-shadow: 0 50vh 0 50vh #2d2d30
+}
+.center {
+    padding: 25px;
+    margin: auto;
+    color: black !important;
+}
+.resize {
+    width: 50%;
+    object-fit: cover;
+}
+.thumbnail {
+    margin: auto;
+    padding: 25px;
+    float: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: left;
+    width: 100%;
 }
